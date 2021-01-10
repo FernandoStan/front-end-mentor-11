@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,input,select,button,textarea
+{
+    font-family: 'Spartan', sans-serif;
+}
+
+html,body
+{
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul,li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.container
+{
+    width: 1440px;
+    height: 800px;
+
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-color: white; 
+
+    padding-top: 100px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+
+.container .container-box
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .container-box .container-text
+{
+    max-width: 480px;
+}
+
+.container .container-box .container-text h2
+{
+    font-size: 45px;
+    font-weight: 700;
+
+    line-height: 45px;
+
+    color: hsl(300, 43%, 22%);
+}
+
+.container .container-box .container-text p
+{
+    margin-top: 20px;
+
+    font-size: 15px;
+
+    line-height: 25px;
+
+    color: hsl(303, 10%, 53%);
+}
+
+.container .container-box ul li
+{
+    width: 450px;
+    height: 50px;
+
+    background-color: hsl(300, 24%, 96%);
+
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border: none;
+    border-radius: 8px;
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.container .container-box ul #li-2
+{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.container .container-box ul #li-3
+{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.container .container-box ul li h3
+{
+    margin-left: 20px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    color: hsl(300, 43%, 22%);
+}
+
+.container .coments 
+{
+    margin-top: 50px;
+}
+
+.container .coments ul
+{
+    display: flex;
+    align-items: center;
+}
+
+.container .coments ul li
+{
+    width: 350px;
+    height: 220px;
+
+    background-color: hsl(300, 43%, 22%);
+
+    margin-left: 0;
+
+    padding: 40px 35px;
+
+    font-size: 14px;
+    font-weight: 300;
+
+    color: hsl(300, 24%, 96%);
+
+    border: none;
+    border-radius: 8px;
+}
+
+.container .coments ul #li-2
+{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.container .coments ul #li-3
+{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.container .coments ul li .header
+{
+    display: flex;
+    align-items: center;
+}
+
+.container .coments ul li .header img
+{
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    border-radius: 50%;
+}
+
+.container .coments ul li .header .header-name
+{
+    margin-left: 15px;
+}
+
+.container .coments ul li .header .header-name p
+{
+    font-size: 14px;
+    font-weight: 300;
+
+    color: hsl(300, 24%, 96%);
+}
+
+.container .coments ul li .header .header-name .p-color
+{
+    color: hsl(333, 47%, 54%);
+}
+
+.container .coments ul li .p-li
+{
+    margin-top: 15px;
+
+    line-height: 20px;
+}
+
+@media(max-width: 1102px)
+{
+    .container .container-box
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .container-box .container-text
+    {
+        text-align: center;
+    }
+
+    .container .container-box .container-text p
+    {
+        max-width: 350px;
+
+        font-size: 13px;
+    }
+
+    .container .container-box ul
+    {
+        margin-top: 25px;
+    }
+
+    .container .container-box ul li
+    {
+        width: 350px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .container-box ul li h3
+    {
+        margin-top: 5px;
+    }
+
+    .container .container-box ul #li-2
+    {
+        margin-left: 0;
+    }
+
+    .container .container-box ul #li-3
+    {
+        margin-left: 0;
+    }
+
+    .container .coments ul
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .coments ul #li-2
+    {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    .container .coments ul #li-3
+    {
+        margin-top: 25px;
+        margin-left: 0;
+    }
+}
