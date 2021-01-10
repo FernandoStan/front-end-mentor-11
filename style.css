@@ -101,13 +101,13 @@ a
     align-items: center;
 }
 
-.container .container-box ul #li-2
+.container .container-box ul .li-2
 {
     margin-top: 20px;
     margin-left: 35px;
 }
 
-.container .container-box ul #li-3
+.container .container-box ul .li-3
 {
     margin-top: 20px;
     margin-left: 70px;
